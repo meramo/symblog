@@ -303,7 +303,6 @@ class Blog
     public function setSlug($slug)
     {
         $this->slug = $this->slugify($slug);
-
     }
 
     /**
